@@ -100,3 +100,5 @@ ngx.var.ext;os.execute(command);
 ngx.exec(ngx.var.request_uri);
 
 ```
+
+Nginx配置请见nginx.conf
