@@ -27,6 +27,7 @@
 查看GraphicsMagick 支持的文件类型:<br />
 `/data/local/GraphicsMagick/bin/gm -version`<br />
 
+
 ```
 Feature Support:
   Native Thread Safe       yes
@@ -54,3 +55,5 @@ Feature Support:
   ZLIB                     yes
 
 Host type: x86_64-unknown-linux-gnu
+
+若PNG、JPEG等不支持，可以在编译GraphicsMagick的时候，使用```--with-png=yes```
