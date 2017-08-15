@@ -60,3 +60,13 @@ Host type: x86_64-unknown-linux-gnu
 ```
 
 若PNG、JPEG等不支持，可以在编译GraphicsMagick的时候，使用 `--with-png=yes`
+
+4、准备lua模块<br />
+`ngx_devel_kit-0.2.18.tar.gz` <br />
+`v0.8.6.tar.gz（lua-nginx-module-0.8.6`<br />
+
+5、安装Nginx<br />
+`tar zxvf nginx-1.4.2.tar.gz`<br />
+`cd nginx-1.4.2`<br />
+`./configure —prefix=/usr/local/nginx —add-module=lua-nginx-module-0.8.6 —add-module=ngx_devel_kit-0.2.18`<br />
+`make && make install`<br />
