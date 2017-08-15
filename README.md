@@ -91,3 +91,12 @@ location /test {
 `find / -name libluajit-5.1.so.2`<br />
 
 `ln -s /usr/local/lib/libluajit-5.1.so.2 /usr/lib64/libluajit-5.1.so.2`<br />
+
+7、lua脚本ImageResizer.lua<br />
+
+```ruby
+local command = "/data/local/GraphicsMagick/bin/gm convert " .. ngx.var.request_filepath .. " -resize " .. ngx.var.width .. "x" .. ngx.var.height .. " +profile \"*\" " .. ngx.var.request_filepath .. "_" .. ngx.var.width .. "x" .. ngx.var.height .. "." ..                           
+ngx.var.ext;os.execute(command);
+ngx.exec(ngx.var.request_uri);
+
+```
