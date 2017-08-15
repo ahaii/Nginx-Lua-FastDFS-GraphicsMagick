@@ -4,7 +4,7 @@
 这里使用lua脚本，调用GraphicsMagick的gm命令动态处理图片。<br/>
 
  # 整体思路:
-1、首先服务器需要有lua环境
-2、Nginx扩展支持lua，可调用lua脚本
-3、lua脚本中定义gm命令及参数
+1、首先服务器需要有lua环境<br />
+2、Nginx扩展支持lua，可调用lua脚本<br />
+3、lua脚本中定义gm命令及参数<br />
 
