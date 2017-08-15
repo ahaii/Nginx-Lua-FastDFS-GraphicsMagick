@@ -80,5 +80,7 @@ location /test {
         ngx.say("hello world")
         ngx.log(ngx.ERR,"err err")
     ';
-}`
+}
 ```
+
+
