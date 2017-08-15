@@ -83,4 +83,4 @@ location /test {
 }
 ```
 
-
+若返回`hello world`即说明正常<br />
