@@ -19,7 +19,7 @@
 `export LUAJIT_INC=/usr/local/include/luajit-2.0`<br />
 
 3、安装GraphicsMagick<br />
-`tar zxvf GraphicsMagick-1.3.21.tar.gz`<b />
+`tar zxvf GraphicsMagick-1.3.21.tar.gz`<br />
 `cd GraphicsMagick`<br />
 `./configure --prefix=/data/local/GraphicsMagick --enable-shared`<br />
 `make && make install`<br />
