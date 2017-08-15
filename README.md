@@ -23,32 +23,7 @@
 `cd GraphicsMagick`<br />
 `./configure --prefix=/data/local/GraphicsMagick --enable-shared`<br />
 `make && make install`<br />
+
 查看GraphicsMagick 支持的文件类型:<br />
 `/data/local/GraphicsMagick/bin/gm -version`<br />
-显示如下:
-Feature Support:
-  Native Thread Safe       yes
-  Large Files (> 32 bit)   yes
-  Large Memory (> 32 bit)  yes
-  BZIP                     yes
-  DPS                      no
-  FlashPix                 no
-  FreeType                 no
-  Ghostscript (Library)    no
-  JBIG                     no
-  JPEG-2000                no
-  JPEG                     yes
-  Little CMS               no
-  Loadable Modules         no
-  OpenMP                   yes (201107)
-  PNG                      yes
-  TIFF                     no
-  TRIO                     no
-  UMEM                     no
-  WebP                     no
-  WMF                      no
-  X11                      no
-  XML                      no
-  ZLIB                     yes
-
-Host type: x86_64-unknown-linux-gnu
+其中，
