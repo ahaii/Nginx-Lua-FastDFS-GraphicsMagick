@@ -53,4 +53,4 @@ Feature Support:
   XML                      no
   ZLIB                     yes
 
-Host type: x86_64-unknown-linux-gnu```
+Host type: x86_64-unknown-linux-gnu
