@@ -70,3 +70,15 @@ Host type: x86_64-unknown-linux-gnu
 `cd nginx-1.4.2`<br />
 `./configure —prefix=/usr/local/nginx —add-module=lua-nginx-module-0.8.6 —add-module=ngx_devel_kit-0.2.18`<br />
 `make && make install`<br />
+
+测试nginx扩展lua是否正常:
+```ruby
+
+location /test {
+    default_type text/html;
+    content_by_lua '
+        ngx.say("hello world")
+        ngx.log(ngx.ERR,"err err")
+    ';
+}`
+```
