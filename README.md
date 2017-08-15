@@ -29,6 +29,7 @@
 
 
 ```ruby
+
 Feature Support:
   Native Thread Safe       yes
   Large Files (> 32 bit)   yes
@@ -55,6 +56,7 @@ Feature Support:
   ZLIB                     yes
 
 Host type: x86_64-unknown-linux-gnu
+
 end```
 
 若PNG、JPEG等不支持，可以在编译GraphicsMagick的时候，使用--with-png=yes
