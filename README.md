@@ -26,4 +26,3 @@
 
 查看GraphicsMagick 支持的文件类型:<br />
 `/data/local/GraphicsMagick/bin/gm -version`<br />
-其中，
