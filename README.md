@@ -10,6 +10,6 @@
 
 # 安装配置:
 1、安装lua环境<br />
-`tar zxvf LuaJIT-2.0.2.tar.gz<br />
-cd LuaJIT-2.0.2<br />
-make && make install` <br />
+`tar zxvf LuaJIT-2.0.2.tar.gz`<br />
+`cd LuaJIT-2.0.2`<br />
+`make && make install`<br />
