@@ -84,3 +84,10 @@ location /test {
 ```
 
 若返回`hello world`即说明正常<br />
+
+6、启动Nginx<br />
+若出错，如`/usr/local/nginx/sbin/nginx: error while loading shared libraries: libluajit-5.1.so.2: cannot open shared object file: No such file or directory`<br />
+请按如下操作:<br />
+`find / -name libluajit-5.1.so.2`<br />
+
+`ln -s /usr/local/lib/libluajit-5.1.so.2 /usr/lib64/libluajit-5.1.so.2`<br />
